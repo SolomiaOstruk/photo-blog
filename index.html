@@ -9,24 +9,33 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <header>
-      <ul>
-        <li><a class="header-link" href="/">LIFESTYLE</a></li>
-        <li>
+    <header class="header">
+      <ul class="header-list">
+        <li class="header-item">
+          <a class="header-link" href="/">LIFESTYLE</a>
+        </li>
+        <li class="header-item">
           <a class="header-link" href="/">PHOTODIARY</a>
         </li>
-        <li><a class="header-link" href="/index.html">MUSIC</a></li>
-        <li><a class="header-link" href="/">TRAVEL</a></li>
+        <li class="header-item">
+          <a class="header-link" href="/index.html">MUSIC</a>
+        </li>
+        <li class="header-item"><a class="header-link" href="/">TRAVEL</a></li>
       </ul>
     </header>
     <main>
-      <ul>
-        <li>
-          <img src="./img/1.jpg" alt="Lifestyle" />
+      <ul  class="card-list">
+        <li class="card-item">
+          <img class="card-img" src="./img/1.jpg" alt="Lifestyle" />
           <p class="card-name">LIFESTYLE</p>
           <h2 class="card-title">More than just a music festival</h2>
           <p class="card-text">
@@ -36,8 +45,8 @@
             aliquip ex ea.
           </p>
         </li>
-        <li>
-          <img src="/img/2.jpg " alt="LIFESTYLE" />
+        <li  class="card-item">
+          <img class="card-img" src="/img/2.jpg " alt="LIFESTYLE" />
           <p class="card-name">LIFESTYLE</p>
           <h2 class="card-title">Life tastes better with coffee</h2>
           <p class="card-text">
@@ -47,8 +56,8 @@
             aliquip ex ea.
           </p>
         </li>
-        <li>
-          <img src="/img/3.jpg" alt="PHOTODAIRY" />
+        <li  class="card-item">
+          <img class="card-img" src="/img/3.jpg" alt="PHOTODAIRY" />
           <p class="card-name">PHOTODAIRY</p>
           <h2 class="card-title">American dream</h2>
           <p class="card-text">
@@ -58,8 +67,8 @@
             aliquip ex ea.
           </p>
         </li>
-        <li>
-          <img src="/img/4.jpg" alt="PHOTODAIRY" />
+        <li  class="card-item">
+          <img class="card-img" src="/img/4.jpg" alt="PHOTODAIRY" />
           <p class="card-name">PHOTODAIRY</p>
           <h2 class="card-title">A day exploring the Alps</h2>
           <p class="card-text">
@@ -70,7 +79,7 @@
           </p>
         </li>
       </ul>
-      <button class="button" type="button">Load more</button>
+      <button  class="button" type="button">Load more</button>
     </main>
   </body>
 </html>
